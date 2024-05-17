@@ -322,7 +322,7 @@ app.get('/', requireLogin, async (req, res) => {
 
 
 app.get('/new-page', requireLogin, (req, res) => {
-  res.redirect('http://localhost:6023http://localhost:6023http://localhost:6023http://localhost:6023http://localhost:6023http://localhost:6023');
+  res.redirect('https://final-17-may.onrender.com/');
 });
 app.post('/logout', (req, res) => {
   // Destroy the session on logout
